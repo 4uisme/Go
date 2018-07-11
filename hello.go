@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
 )
 
+var i int
+var c, python, java bool
+var d int16
+
+const world = "World"
+
 func main() {
-	fmt.Println("hello,world,", rand.Intn(100))
+	fmt.Println(Pi)
 }
